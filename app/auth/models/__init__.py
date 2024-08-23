@@ -1,0 +1,1 @@
+from .auth import *     # 另外的方法，这里的models是一个目录而不是直接写模型数据，auth.py里才有详细数据，在工厂函数中仍然可以直接from app.auth import models
